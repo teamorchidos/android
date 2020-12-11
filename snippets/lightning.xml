@@ -26,11 +26,7 @@
     <!-- ROM manifest -->
     <remove-project path="android" name="LineageOS/android" />
     <project path="android" name="android" remote="LightningFastRom" />
-
-    <!-- framework/base replacement for LFR -->
-    <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-    <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
-
+    
     <!-- LineageSDK replacement for LFR -->
     <remove-project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
     <project path="lineage-sdk" name="android_lineage-sdk" remote="LightningFastRom" />
@@ -101,10 +97,6 @@
     <!-- Rebrended LineageOS LineageParts -->
     <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
     <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="LightningFastRom" />
-
-    <!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="LightningFastRom" />
 
     <!-- Rebrended LineageOS SetupWizard -->
     <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
