@@ -696,5 +696,6 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/lightning.xml" />
+  <include name="snippets/remove.xml" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
