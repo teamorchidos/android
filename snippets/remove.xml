@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="teamorchidos"
-    <remote name="Orchidos" 
             fetch="https://github.com/teamorchidos" />
     
     <!-- Replacing LineageOS Framework/base In Order Theme The Android Properly -->
@@ -11,8 +10,8 @@
     <!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="landroid_packages_apps_Settings-1" />
-    <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="Orchidos" />
+    <project path="vendor/prebuilts" name="android_vendor_prebuilts" />
     <project path="vendor/oplauncher" name="android_vendor_oplauncher" remote="android_10" />
     <project path="vendor/pixelgapps" name="pixelgapps" remote="main" />
-    <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="master" />	
+    <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" />	
 </manifest>
