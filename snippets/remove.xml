@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="teamorchidos"
+    <remote name="Orchidos"
+    <remote name="android_10"     
             fetch="https://github.com/teamorchidos" />
+    
 
     <!-- Replacing LineageOS Framework/base In Order Theme The Android Properly -->
     <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
