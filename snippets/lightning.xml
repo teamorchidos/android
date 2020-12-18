@@ -46,14 +46,6 @@
     <!-- <remove-project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
     <project path="packages/apps/FMRadio" name="LightningFastRom/android_packages_apps_FMRadio" remote="LightningFastRom" /> -->
 
-    <!-- Sawapping Eleven For My Version With Out the Ulgy Visualizer -->
-    <remove-project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
-    <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="LightningFastRom" />
-    
-    <!-- Sawapping DocumentsUI For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
-    <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="LightningFastRom" />
-
     <!-- Sawapping Messaging For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <remove-project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="LightningFastRom" groups="pdk-fs" />
@@ -61,10 +53,6 @@
     <!-- Sawapping Dialer For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <remove-project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
     <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="LightningFastRom" groups="pdk-fs" />
-
-    <!-- Sawapping Contacts For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
-    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="LightningFastRom" groups="pdk-fs" />
 
     <!-- Sawapping Etar For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <remove-project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
@@ -78,42 +66,13 @@
     <remove-project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
     <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="LightningFastRom" groups="pdk-fs" />
 
-    <!-- Sawapping Jelly For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" groups="pdk-fs" />
-    <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="LightningFastRom" groups="pdk-fs" />
-
-    <!-- Sawapping Gallery2 For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
-    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="LightningFastRom" groups="pdk-fs" />
-
-    <!-- Sawapping Snap For My Version Witch Now Has Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
-    <remove-project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
-    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="LightningFastRom" />
-
-    <!-- Sawapping Recorder For My Version With New Red & Blur Theme -->
-    <remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-    <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="LightningFastRom" />
-
     <!-- Rebrended LineageOS LineageParts -->
     <remove-project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
     <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="LightningFastRom" />
 
     <!-- Rebrended LineageOS SetupWizard -->
     <remove-project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-    <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="LightningFastRom" />
 
-    <!-- Stock Email fixed -->
-    <remove-project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
-    <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" remote="LightningFastRom" />
-
-    <!-- Stock Email fixed -->
-    <remove-project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-    <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="LightningFastRom" />
-    
-    <!-- Replaced LineageOS android_packages_appsTrebuchet With My Repo So I Add More Features -->
-    <remove-project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-    <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="LightningFastRom" />
-	
     <!-- Swapping ineageOS/android_packages_inputmethods_LatinIME With My Repo Since My Fork Control Darkmode Via The System Like iOS & iPadOS-->
     <remove-project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs"  remote="LightningFastRom" />
@@ -128,9 +87,6 @@
     <remove-project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
     <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="LightningFastRom" />
 
-    <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Prepos -->
-    <!-- <project path="vendor/Gapps-Preloader" name="Open-Base-Gapps-Preloader" remote="LightningFastRom" revision="2.0"/>-->
-    
     <!-- Adding My Own For Branding Perpous But Mostely Replaceing The Default Ringtones/Sounds With My Own Ringtones AKA(Qualty Over Quantity) -->
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="android_vendor_lineage" remote="LightningFastRom" />
@@ -142,4 +98,3 @@
     <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" revision="ten" />
     
 </manifest>
-
