@@ -12,6 +12,6 @@
     <project path="packages/apps/Settings" name="landroid_packages_apps_Settings-1" />
     <project path="vendor/prebuilts" name="android_vendor_prebuilts" />
     <project path="vendor/oplauncher" name="android_vendor_oplauncher" />
-    <project path="vendor/pixelgapps" name="pixelgapps" remote="main" />
+    <project path="vendor/pixelgapps" name="pixelgapps" />
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" />	
 </manifest>
