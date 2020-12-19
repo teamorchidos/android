@@ -4,8 +4,9 @@
             fetch="https://github.com/LightningFastRom" />
     
     <remote name="lineagex"
-            fetch="https://github.com//Lineage-X" />
-
+            fetch="https://github.com//Lineage-X" 
+            revision="ten" />
+    
     <!-- LineageOS infra stuff, which is not needed -->
     <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
     <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
@@ -95,6 +96,6 @@
     <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="LightningFastRom" />
 
-    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" revision="ten" />
+    <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="lineagex" />
     
 </manifest>
