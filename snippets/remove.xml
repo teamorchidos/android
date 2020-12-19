@@ -9,7 +9,7 @@
 
     <!-- Rebrended LineageOS Setting & Adding Pixel Style Icon from allstargaurav/The-Adaptive-Project -->
     <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="landroid_packages_apps_Settings-1" remote="teamorchidos" />
+    <project path="packages/apps/Settings" name="landroid_packages_apps_Settings-1" remote="orchid" />
     <project path="vendor/prebuilts" name="orchid_vendor_prebuilts" remote="teamorchidos" revision="main" />
     <project path="vendor/oplauncher" name="android_vendor_oplauncher" remote="teamorchidos" revision="android_10" />
     <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_ANXCamera" remote="teamorchidos" revision="master" />	
